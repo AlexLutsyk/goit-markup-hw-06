@@ -564,6 +564,10 @@
     color: var(--accent-color);
   }
 
+  .join-us{
+    margin-right: 93px;
+  }
+
   .join-us-text{
     margin: 0;
     margin-bottom: 20px;
@@ -601,7 +605,7 @@
   }
 
   .sign-container{
-    margin-left: 93px;
+    margin-right: auto;
   }
 
   .footer-form{
@@ -973,6 +977,13 @@
 
   .user-label{
     margin-bottom: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.166;
+    letter-spacing: 0.01em;
+    color: #757575;
   }
 
   .for-user-svg{
@@ -1115,7 +1126,8 @@
     transition: fill 250ms var(--cubic);
   }
 
-  .close-modal-btn:focus .icon-vector{
+  .close-modal-btn:focus .icon-vector,
+  .close-modal-btn:hover .icon-vector{
     fill: var(--accent-color);
   }
   /* END MODAL FORM */
