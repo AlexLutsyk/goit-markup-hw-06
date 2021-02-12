@@ -614,6 +614,8 @@
   }
 
   .sign-footer-text{
+    margin: 0;
+    margin-bottom: 20px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
